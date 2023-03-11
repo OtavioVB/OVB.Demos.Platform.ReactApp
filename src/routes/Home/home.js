@@ -1,8 +1,13 @@
+import { Fragment } from 'react';
 import Header from '../../components/header/header.js';
+import LandingPage from '../../components/main/home/landingpage.js'
 
 function Home(){
     return (
-        <Header></Header>
+        <Fragment>
+            <Header></Header>
+            <LandingPage></LandingPage>
+        </Fragment>
     );
 }
 

@@ -2,7 +2,6 @@ import {BrowserRouter as Router, Route, Routes} from 'react-router-dom'
 import Home from './routes/Home/home.js';
 import NotFound from './routes/NotFound/notfound.js';
 import './App.css';
-import { setLocalStorage } from './functions/manipulation/localStorage.js';
 
 function App() {
   return (
