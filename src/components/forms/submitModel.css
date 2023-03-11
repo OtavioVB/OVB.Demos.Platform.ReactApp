@@ -1,0 +1,15 @@
+.form-submit-model{
+    background-color: #03090f;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 8px 15px;
+    width: 100%;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.form-submit-model:hover{
+    background-color: rgb(189, 113, 0);
+}

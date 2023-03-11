@@ -1,0 +1,13 @@
+.create-account-section{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 30vw;
+}
+
+@media screen and (max-width: 980px) {
+    .create-account-section{
+        display: flex;
+        flex-direction: column;
+        margin: 10px 10vw;
+    }
+}

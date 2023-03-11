@@ -1,0 +1,35 @@
+.form-input-model{
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+    margin: 5px 0;
+}
+
+.form-input-model-high{
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+    margin-top: 5px;
+}
+
+.form-input-model-low{
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+    margin-bottom: 5px;
+}
+
+.form-input-model-label{
+    color: black;
+    font-weight: 600;
+}
+
+.form-input-model-input{
+    border-radius: 3px;
+    outline: none;
+    background-color: rgb(230, 230, 230);
+    color: black;
+    border: none;
+    padding: 4px 9px;
+    margin-top: 5px;
+}

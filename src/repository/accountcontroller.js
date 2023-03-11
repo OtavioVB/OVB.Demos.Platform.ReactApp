@@ -1,5 +1,5 @@
 import Axios from 'axios';
-import CreateAccountInput from '../usecases/createaccountinput';
+import CreateAccountInput from '../usecases/accountInputs';
 
 export function createNewAccount(input){
     if(typeof(input) != typeof(CreateAccountInput)){
