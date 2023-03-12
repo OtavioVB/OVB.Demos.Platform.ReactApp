@@ -5,6 +5,8 @@ export function createAccountUseCase(name, firstName, lastName, username, passwo
 
     if(account.email == null || account.username == null || account.firstName == null || account.lastName == null ||
         account.name == null || account.password == null){
-        return "Preencha todos os campos corretamente";
+            console.log("is not possible to create account");
     }
+
+    console.log("Conta criada com sucesso!");
 };
