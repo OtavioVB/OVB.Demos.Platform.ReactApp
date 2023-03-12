@@ -4,6 +4,9 @@ import SubmitModel from '../../forms/submitModel';
 import './createaccountmain.css';
 
 export default function CreateAccoutMain(){
+    document.getElementById("createaccount-submit").addEventListener('onclick', () => {
+        return console.log("conta criada com sucesso!");
+    });
     return (
         <Fragment>
             <main class="createaccount-main">
@@ -14,7 +17,7 @@ export default function CreateAccoutMain(){
                 <InputModel class="form-input-model" label="Email" placeholder="suporte@platform.com.br" id="email" inputType="email"></InputModel>
                 <InputModel class="form-input-model" label="Senha" placeholder="********" id="password" inputType="password"></InputModel>
                 <InputModel class="form-input-model" label="Confirme sua senha" placeholder="********" id="confirmPassword" inputType="password"></InputModel>
-                <SubmitModel text="Criar Conta"></SubmitModel>
+                <SubmitModel id="createaccount-submit" text="Criar Conta"></SubmitModel>
             </main>
         </Fragment>
     );
