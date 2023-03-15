@@ -4,7 +4,7 @@ function Header() {
     return (
         <header>
             <div class="description-platform">
-                <p class="NamePlatform">Ecommerce</p>
+                <p class="NamePlatform">Eschody</p>
             </div>
             <div class="navigation-area">
                 <nav class="navigation-area-content">

@@ -1,14 +1,13 @@
 import './landingpage.css';
-import { ReactDOM } from 'react';
 
 function LandingPage(){
     return (
         <main class="landingpage">
             <section class="main-section">
                 <div class="main-section-content">
-                    <h1>O que o Ecommerce tem a te oferecer?</h1>
+                    <h1>O que é o Eschody?</h1>
                     <div class="main-section-content-display" id="messages">
-                        <p class="main-section-context-display-text">O Ecommercivio tem o dever de agregar valor a venda de produtos da sua empresa.</p>
+                        <p class="main-section-context-display-text">O <b>Eschody</b> é uma plataforma criada por estudantes que estão em processo de estudos para o vestibular para estudantes que estão ou irão estudar para os diversos vestibulares pelo pais. A plataforma tem o dever de auxiliar o aluno em análises de lacunas no conhecimento, em análise do nível de comprometimento e análise do atual estado perante o resultado esperado.</p>
                     </div>
                 </div>
             </section>

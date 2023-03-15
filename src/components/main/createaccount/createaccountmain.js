@@ -7,7 +7,7 @@ export default function CreateAccoutMain(){
     return (
         <Fragment>
             <main class="createaccount-main">
-                <h1>Criar Conta</h1>
+                <h1>Criar Conta na Eschody</h1>
                 <InputModel class="form-input-model-high" label="Nome de Usuário" placeholder="otavioexemplo" id="username" inputType="text"></InputModel>
                 <InputModel class="form-input-model" label="Nome" placeholder="Otávio" id="name" inputType="text"></InputModel>
                 <InputModel class="form-input-model" label="Sobrenome" placeholder="Silva da Costa" id="lastName" inputType="text"></InputModel>

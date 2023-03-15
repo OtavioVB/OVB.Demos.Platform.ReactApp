@@ -8,7 +8,7 @@ function NotFound(){
             <Header/>
             <div class="notfound-information">
                 <h1>ERROR 404</h1>
-                <p>Página não encontrada</p>
+                <p>Página do <strong>Eschody</strong> não encontrada</p>
             </div>
         </Fragment>
     );
