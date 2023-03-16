@@ -47,11 +47,6 @@ function Header() {
                     </ul>
                     <div class="account-area-content">
                         <p class="account-area-content-text">ACESSO</p>
-                        <div class="navigation-area-content-account-subgroup">
-                            <p>Acesso</p>
-                            <p class="navigation-area-content-account-subgroup-item">ENTRAR COMO MEMBRO</p>
-                            <p class="navigation-area-content-account-subgroup-item">ENTRAR COMO ADMINISTRADOR</p>
-                        </div>
                     </div>
                 </nav>
             </div>
