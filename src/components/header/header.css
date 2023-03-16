@@ -1,6 +1,5 @@
 header{
     display: flex;
-    flex-direction: row;
     padding: 0 15px;
     background-color: #03090f;
 }
@@ -23,13 +22,13 @@ header{
 
 .navigation-area, .navigation-area-content, .navigation-area-content-group{
     display: flex;
-    flex-direction: row;
     align-items: center;
-    justify-content: center;
 }
 
 .navigation-item{
     list-style: none;
+    flex-direction: column;
+    text-align: center;
 }
 
 .navigation-link{
@@ -37,15 +36,51 @@ header{
     color: white;
 }
 
-.navigation-area-content-subgroup{
+#close{
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    color: white;
+    width: 25px;
+    height: 25px;
+    transition: 0.35s;
+}
+
+#close:hover{
+    color: gray;
+}
+
+#support-click{
+    transition: 0.3s;
+}
+
+#support-click:hover{
+    color: gray;
+}
+
+#support-icon{
+    height: 12px;
+    transition: 0.2s;
+}
+
+.navigation-area-content-subgroups-content{
     display: none;
+    position: absolute;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #03090f;
+    right: 0;
+    width: 100vw;
+    animation: ease-in-out;
+    animation-name: slide;
+    animation-duration: 0.2s;
+    margin-top: 15px;
 }
 
 .navigation-area-content-subgroup{
     flex-direction: column;
-    position: absolute;
-    margin-top: 15px;
-    background-color: #03090f;
     padding: 8px;
     border-radius: 0 0 4px 4px;
 }
@@ -53,10 +88,21 @@ header{
 
 .navigation-item-subgroup{
     color: white;
+    list-style: none;
 }
 
 @media screen and (min-width: 1366px) {
     header{ 
         padding: 0 12vw;
+    }
+}
+
+@keyframes slide {
+    from {
+        height: 0;
+    }
+
+    to {
+        height: 50px;
     }
 }
